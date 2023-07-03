@@ -1,4 +1,7 @@
 from Funcionario import Funcionario
+from Vendedor import Vendedor
+from Secretario import Secretario
+from Gerente import Gerente
 
 #import os
 
@@ -27,9 +30,8 @@ def particao(a, ini, fim):
 
 def menu():
     #os.system("clear")
-    print("-" * 10)
+    print("-" * 60)
     print("1- Cadastrar funcionário")  #def criar_funcionario():
-    print("1 Criar Gerente")
     print("2- Salvar funcionarios")  #def salvar_dados(lista):
     print("3- Remover Funcionários"
           )  #def remover_funcionarios(lista_funcionarios, numero):
@@ -38,15 +40,39 @@ def menu():
     print("6- Buscar funcionário pelo maior sálario")
     print("7- Buscar funcionário pelo sálario médio")
     print("8- Ordenar lista")
-
+    print("-" * 60)
 
 def criar_funcionario():
-    nome = input("Informe o nome:  ")
-    email = input("Informe o email:  ")
-    salario = float(input("Informe o salário:  "))
-    cargo = input("Informe o cargo:  ")
-    f = Funcionario(nome, email, salario, cargo)
-    return f
+    print("informe o cargo")
+    print("1- Vendedor")
+    print("2- Secretário")
+    print("3- Gerente")
+    cargo = int(input("digite aqui: "))
+
+    if(cargo == 1):
+        nome = input("Informe o nome:  ")
+        email = input("Informe o email:  ")
+        salario = float(input("Informe o salário:  "))
+        cargo = "Vendedor"
+        quantidade_vendas = int(input("Informe a quantidade de Vendas:  "))
+        funcionario = Vendedor(nome, email, salario, cargo , quantidade_vendas)
+        return funcionario
+    if(cargo == 2):
+        nome = input("Informe o nome:  ")
+        email = input("Informe o email:  ")
+        salario = float(input("Informe o salário:  "))
+        cargo = "Secretário"
+        funcionario = Secretario(nome, email, salario, cargo)
+        return funcionario
+    if(cargo == 3):
+        nome = input("Informe o nome:  ")
+        email = input("Informe o email:  ")
+        salario = float(input("Informe o salário:  "))
+        cargo = "Gerente"
+        nome_gerencia = input("Informe o nome da gerência:  ")
+        funcionario = Gerente(nome, email, salario, cargo , nome_gerencia)
+        return funcionario
+
 
 
 def salvar_dados(lista):

@@ -18,7 +18,7 @@ class Gerente(Funcionario):
 
   
   def __str__(self):
-    return f"{super().__str__()}; Quant. Func. : {self.__qntd_funcionarios}"
+    return f"{super().__str__()}; Nome Gerência : {self.__nome_gerencia}"
     
     
   

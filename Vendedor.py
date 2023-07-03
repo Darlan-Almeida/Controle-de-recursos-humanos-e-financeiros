@@ -1,8 +1,8 @@
 from Funcionario import Funcionario
 
 class Vendedor(Funcionario):
-  def __init__(self, nome, email, salario, quantidade_vendas):
-    super.__init__(nome, email, salario)
+  def __init__(self, nome, email, salario, cargo , quantidade_vendas):
+    super().__init__(nome, email, salario , cargo)
     self.__quantidade_vendas = quantidade_vendas
 
 
@@ -15,6 +15,9 @@ class Vendedor(Funcionario):
 
   def getBonificacao(self):
         return super().getSalario() * 0.1 + (2 * self.__quantidade_vendas)
+  
+  def getSalario(self):
+      return super().getSalario() + self.getBonificacao()
 
   def __str__(self):
     return f"{super().__str__()}; Quantidade de vendas : {self.__quantidade_vendas}"
