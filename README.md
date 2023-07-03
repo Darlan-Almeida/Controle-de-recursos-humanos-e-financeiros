@@ -76,3 +76,19 @@ O sistema funciona por linha de comando, pois a aplicação tem foco, apenas, no
 
 [[Clique aqui para ver, no meu canal do Youtube, a execução dessa função]](https://www.youtube.com/watch?v=5q1Pzpltq9Q)
 
+
+### Autor
+---
+
+![Imagem do autor](https://media.licdn.com/dms/image/D4D35AQEaArHpYygSfQ/profile-framedphoto-shrink_400_400/0/1676827319640?e=1689030000&v=beta&t=EI9NzBKbjy56r1aFldNvym7GATPY5sQhvoPA90vGMhQ)
+
+
+
+
+
+Feito com ❤️ por Darlan Almeida👋🏽 Entre em contato!
+
+[![Linkedin Badge](https://img.shields.io/badge/-Darlan-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/darlan-almeida/)](https://www.linkedin.com/in/darlan-almeida-92251a232/) 
+[![Gmail Badge](https://img.shields.io/badge/-adarlan748@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:adarlan748@gmail.com)](mailto:adarlan748@gmail.com)
+
+
