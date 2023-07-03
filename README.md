@@ -44,3 +44,35 @@ O sistema funciona por linha de comando, pois a aplicação tem foco, apenas, no
 - Secretário
 
 [[Clique aqui para ver, no meu canal do Youtube, a execução dessa função]](https://www.youtube.com/watch?v=ycesdyiZGRk)
+
+
+2- Salve os dados dos funcionários cadastrados em um arquivo CSV.
+
+[[Clique aqui para ver, no meu canal do Youtube, a execução dessa função]](https://www.youtube.com/watch?v=NAAkIfLU3Qc)
+
+
+3- Remova o registro dos funcionários que desejar
+
+[[Clique aqui para ver, no meu canal do Youtube, a execução dessa função]](https://www.youtube.com/watch?v=VOxP_RJ8zQc)
+
+4- Atualize o registro dos funcionários que desejar
+
+[[Falta o link]](https://www.youtube.com/)
+
+5- Busca pelo menor salário
+
+[[Clique aqui para ver, no meu canal do Youtube, a execução dessa função]](https://youtu.be/AwxTV0xR71Q)
+
+6- Busca pelo maior salário
+
+[[Clique aqui para ver, no meu canal do Youtube, a execução dessa função]](https://www.youtube.com/watch?v=AwxTV0xR71Q)
+
+7- Busca pelo salário médio
+
+[[Clique aqui para ver, no meu canal do Youtube, a execução dessa função]](https://youtu.be/qQ4e36506_4)
+
+
+8- Ordenação da lista
+
+[[Clique aqui para ver, no meu canal do Youtube, a execução dessa função]](https://www.youtube.com/watch?v=5q1Pzpltq9Q)
+
