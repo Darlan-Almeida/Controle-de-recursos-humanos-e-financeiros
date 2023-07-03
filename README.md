@@ -57,7 +57,7 @@ O sistema funciona por linha de comando, pois a aplicação tem foco, apenas, no
 
 4- Atualize o registro dos funcionários que desejar
 
-[[Falta o link]](https://www.youtube.com/)
+[[Clique aqui para ver, no meu canal do Youtube, a execução dessa função]](https://youtu.be/9WJlcMV-MpM)
 
 5- Busca pelo menor salário
 
